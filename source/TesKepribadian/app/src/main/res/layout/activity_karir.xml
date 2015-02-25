@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="null"
+                android:id="@+id/txtTipe"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pekerjaan yang cocok dengannya adalah suat yang berhubungan dengan kegiatan akuntan dan sesuatu yang detail. karena ketelitian dan kesempurnaannya, dia menjadi orang yang tepat dalam mengurusi hal yang detail"
+                android:id="@+id/txtKerja"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:id="@+id/btnMuleh"
+                android:layout_marginTop="100dp"
+                android:layout_alignParentTop = "true" />
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

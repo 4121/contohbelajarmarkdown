@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tentang Program"
+                android:id="@+id/textVi"/>
+
+            <ImageView
+                android:layout_width="500px"
+                android:layout_height="500px"
+                android:src="@drawable/teka"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:id="@+id/imageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terkadang kita bingung menentukan tipe kepribadian masing masing. Program ini bertujuan untuk membantu mengukur tipe kepribadian seseorang dan tips tips mengenai karier."
+                android:id="@+id/textView23"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Aplikasi ini refernsi dari buku:"
+                android:id="@+id/textV"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Panduan Mengelola Sumber Daya Manusia Menggunakan Buku Manual Otaknya"
+                android:gravity="center_horizontal"
+                android:id="@+id/text"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="~ Susanto Windura ~"
+                android:id="@+id/textView22"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:id="@+id/btnKembali"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
